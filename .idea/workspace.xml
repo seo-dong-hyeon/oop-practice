@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cee1736-fa14-4941-96eb-993850f17f04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/grade/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/grade/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/grade/GradeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/grade/CourseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/grade/GradeCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/food/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/food/Cooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/food/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/food/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/food/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/food/CookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/food/CookingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/food/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/food/MenuItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/food/MenuTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +70,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_directory_selection": "C:/project/oop-practice/src/main/java/org/example/grade",
+    "last_directory_selection": "C:/project/oop-practice/src/main/java/org/example/food",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -74,6 +79,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.food" />
       <recent name="org.example.grade" />
       <recent name="org.example" />
     </key>
@@ -87,82 +93,82 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GradeCalculatorTest.calculateGradeTest">
-    <configuration name="CalculatorTest.calculateExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerTest.orderTest">
+    <configuration name="CookTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="PATTERN" value="org.example.food.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="calculateExceptionTest(int,java.lang.String,int,int)" />
+      <option name="PACKAGE_NAME" value="org.example.food" />
+      <option name="MAIN_CLASS_NAME" value="org.example.food.CookTest" />
+      <option name="METHOD_NAME" value="createTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.calculateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CookingTest.makeCookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="PATTERN" value="org.example.food.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="calculateTest(int,java.lang.String,int,int)" />
+      <option name="PACKAGE_NAME" value="org.example.food" />
+      <option name="MAIN_CLASS_NAME" value="org.example.food.CookingTest" />
+      <option name="METHOD_NAME" value="makeCookTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.subtractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.orderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="PATTERN" value="org.example.food.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="subtractTest(int,java.lang.String,int,int)" />
+      <option name="PACKAGE_NAME" value="org.example.food" />
+      <option name="MAIN_CLASS_NAME" value="org.example.food.CustomerTest" />
+      <option name="METHOD_NAME" value="orderTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseTest.crateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuTest.chooseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.grade.*" />
+          <option name="PATTERN" value="org.example.food.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.grade" />
-      <option name="MAIN_CLASS_NAME" value="org.example.grade.CourseTest" />
-      <option name="METHOD_NAME" value="crateTest" />
+      <option name="PACKAGE_NAME" value="org.example.food" />
+      <option name="MAIN_CLASS_NAME" value="org.example.food.MenuTest" />
+      <option name="METHOD_NAME" value="chooseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeCalculatorTest.calculateGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuTest.chooseTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.grade.*" />
+          <option name="PATTERN" value="org.example.food.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.grade" />
-      <option name="MAIN_CLASS_NAME" value="org.example.grade.GradeCalculatorTest" />
-      <option name="METHOD_NAME" value="calculateGradeTest" />
+      <option name="PACKAGE_NAME" value="org.example.food" />
+      <option name="MAIN_CLASS_NAME" value="org.example.food.MenuTest" />
+      <option name="METHOD_NAME" value="chooseTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GradeCalculatorTest.calculateGradeTest" />
-        <item itemvalue="JUnit.CourseTest.crateTest" />
-        <item itemvalue="JUnit.CalculatorTest.calculateTest" />
-        <item itemvalue="JUnit.CalculatorTest.calculateExceptionTest" />
-        <item itemvalue="JUnit.CalculatorTest.subtractTest" />
+        <item itemvalue="JUnit.CustomerTest.orderTest" />
+        <item itemvalue="JUnit.MenuTest.chooseTest2" />
+        <item itemvalue="JUnit.MenuTest.chooseTest" />
+        <item itemvalue="JUnit.CookingTest.makeCookTest" />
+        <item itemvalue="JUnit.CookTest.createTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,12 +207,20 @@
       <option name="project" value="LOCAL" />
       <updated>1671036031086</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;일급컬렉션 실습 - 학점 계산기&quot;">
+      <created>1671214674010</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671214674010</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;테스트코드 실습 - 비밀번호 생성기&quot;" />
     <MESSAGE value="&quot;객체지향 실습 - 사칙연산 계산기&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;객체지향 실습 - 사칙연산 계산기&quot;" />
+    <MESSAGE value="&quot;일급컬렉션 실습 - 학점 계산기&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;일급컬렉션 실습 - 학점 계산기&quot;" />
   </component>
 </project>
